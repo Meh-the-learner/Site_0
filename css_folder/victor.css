@@ -1,1 +1,39 @@
 @import 'style.css';
+
+main h1{
+    margin-top: 10%;
+    margin-bottom: 1%;
+    color: #e34234;
+    font-size: 3vw;
+    font-family: "Raleway";
+    text-align: center;
+}
+table{
+    width:90%;
+    height:15vw;
+    margin: 3vw auto 3vw auto;
+    border:3px dashed wheat;
+    background-color: whitesmoke;
+}
+#text{
+    font-family: "Quicksand";
+    font-size: 1.5vw;
+    text-align: center;
+    text-indent: 3vw;
+    color:rgb(34, 34, 34);
+}
+
+table img{
+    height:100%;
+    width:35vw;
+}
+
+table a{
+    text-decoration: none;
+    color:#00a2ff;
+}
+table a:hover{
+    text-decoration:line-through;
+    color:#ffe600;
+    font-weight: 900;
+}

@@ -1,1 +1,38 @@
 @import 'style.css';
+
+main h1{
+    margin: 10% 5% 1% 5%;
+    color: #e34234;
+    font-size: 3vw;
+    font-family: "Raleway";
+    text-align:center;
+}
+form{
+    margin: 0 5% 5% 5%;
+}
+fieldset{
+    width:60%;
+    margin: 0 auto 0 auto;
+    color:whitesmoke;
+    background-color: #0e0e0e;
+    border: 1px solid whitesmoke;
+    padding: 1vw;
+}
+label, p{
+    font-size: 1.5vw;
+    font-family: 'Quicksand';
+    font-weight: 900;
+}
+legend{
+    font-family: "Rakeway";
+    font-size: 2vw;
+    color:#da5e2d;
+}
+#to_middle{
+    width:99%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+#c_back{
+    margin-bottom: .5vw;
+}

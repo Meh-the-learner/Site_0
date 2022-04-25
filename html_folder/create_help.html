@@ -20,18 +20,61 @@
             <li><a href="./create_help.html">Create account or help the blog</a></li>
             <li><a href="./recommendations.html">Recommendations</a>
                 <ul>
-                    <li><a href="./guifel.html">Partner's page 1</a></li>
-                    <li><a href="./alan.html">Partner's page 2</a></li>
-                    <li><a href="./victor.html">Partner's page 3</a></li>
+                    <li><a href="./guifel.html">Shop Star</a></li>
+                    <li><a href="./alan.html">Pcs and games</a></li>
+                    <li><a href="./victor.html">Poke soft</a></li>
                 </ul>
             </li>
             <li id="nav_right"><a href="./songs.html">Favorite anime songs</a></li>
         </ul>
     </nav>
     <main>
-    <p>
-        /<br>/<br>/<br>/<br>/<br>/<br>/<br>/<br>/<br>/<br>/<br>/<br>/<br>/<br>/
-    </p>
+        <h1>Create account</h1>
+        <form method="post" action="./receive.php">
+            <fieldset>
+                <legend></legend>
+                <div id="to_middle">
+                    <br>
+                    <label for="user">User name:</label>
+                    <input type="text" id="user" autofocus size="20" maxlength="10" required>
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <br><br>
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone" size="20" maxlength="9" required>
+                    <br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" size="20" maxlength="12" required>
+                    <br><br>
+                    <label for="c_password">Confirm password:</label>
+                    <input type="password" id="c_password" placeholder="Be aware of capslock!" size="20" maxlength="12" required>
+                    <br><br>
+                </div>
+            </fieldset>
+        </form>
+        <br>
+        <form method="post" action="./receive.php">
+            <fieldset>
+                <legend>Help the blog</legend>
+                    <input type="hidden" name="user_cookies" value="cookies">
+                    <br>
+                    <p>Leave a comment:</p>
+                    <br>
+                    <textarea id="comment" cols="20" rows="5" placeholder="Type your mind out. Anything is helpful!">.</textarea>
+                    <br><br>
+                    <p>The website looks: </p>
+                    <input type="radio" name="how_cool" value="cool">Cool
+                    <input type="radio" name="how_cool" value="not_coll">Not cool
+                    <br><br>
+                    <label for="c_back">Would you come back:</label>
+                    <select id="c_back">
+                        <option>Yeap</option>
+                        <option>Nope</option>
+                    </select>
+            </fieldset>
+        </form>
+        
     </main>
     <footer>
         <ul>

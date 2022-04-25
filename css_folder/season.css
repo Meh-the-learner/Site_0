@@ -1,1 +1,47 @@
 @import 'style.css';
+
+main h1{
+    margin-top: 10%;
+    margin-bottom: 1%;
+    color: #e34234;
+    font-size: 3vw;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+figcaption{
+    max-width: auto;
+    color: whitesmoke;
+    font-size: 1.5vw;
+    font-family: "Quicksand";
+    text-align: justify;
+    text-indent: 3vw;
+}
+
+b{
+    color:rgb(0, 17, 255);
+}
+
+.container{
+    margin: 2% 5% 5% 5%;
+}
+.images{
+    width:auto;
+    display: flex;
+    margin-bottom: 3vw;
+}
+.images img{
+    height:10vw;
+    width: 12.5vw;
+    flex-grow: 1;
+    margin-right: .5vw;
+}
+.title{
+    color:rgb(136, 20, 146);
+    font-weight:900;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 0px 1px rgb(212, 0, 255);
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+}

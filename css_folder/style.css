@@ -19,13 +19,13 @@ header{
     max-height: 100%;
     max-width: 210px;
     background-color: #0e0e0e;
-    border-top-left-radius: 30px;
+    border-top-left-radius: 15px;
 }
 #banner{
     max-height:100%;
     width:100%;
     background-image: url(../images_folder/banner.jpg);
-    border-top-right-radius: 40px;
+    border-top-right-radius: 15px;
 }
 nav{
     max-height:3vw;
@@ -81,7 +81,7 @@ nav > ul > li:hover > ul > li{
 
 
 footer{
-    height: 30vw;
+    height: 30.5vw;
     margin: 0 5% 0 5%;  
     background-color: #0e0e0e;
     display: flex;

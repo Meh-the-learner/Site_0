@@ -1,1 +1,53 @@
 @import 'style.css';
+
+main h1{
+    margin-top: 10%;
+    margin-bottom: 1%;
+    color: #e34234;
+    font-size: 3vw;
+    font-family: "Raleway";
+    text-align: center;
+}
+table{
+    width:90%;
+    color:white;
+    margin: 5% auto 5% auto;
+    background-color: #0e0e0e;
+    border: 2px dashed lightblue;
+}
+caption{
+    font-family: "Raleway";
+    font-size: 1.5vw;
+    color: lightcoral;
+    font-weight: 900;
+    text-shadow: 0px 1px rgb(197, 87, 87);
+    text-decoration:overline;
+    margin-bottom: .5vw;
+}
+tr, th, td{
+    border: 1px solid whitesmoke;
+}
+table img{
+    height:25vw;
+    width: 16vw;
+}
+th{
+    font-family: "Raleway";
+    font-size: 1.5vw;
+    color:lightsalmon;
+}
+.img{
+    width:16vw;
+}
+.des{
+    font-family: "Quicksand";
+    font-size: 2vw;
+    text-indent: 3vw;
+    text-align: justify;
+    padding: 0 1% 0 1%;
+}
+.studio{
+    font-family: "Quicksand";
+    text-align: center;
+    font-size: 1.5vw;
+}
