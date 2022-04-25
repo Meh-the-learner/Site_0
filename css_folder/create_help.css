@@ -28,7 +28,7 @@ legend{
     font-size: 2vw;
     color:#da5e2d;
 }
-#to_middle{
+.to_middle{
     width:99%;
     margin: 0 auto 0 auto;
     text-align: center;
