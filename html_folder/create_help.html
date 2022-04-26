@@ -58,22 +58,27 @@
             <fieldset>
                 <legend>Help the blog</legend>
                 <div class="to_middle">
-                    <input type="hidden" name="user_cookies" value="cookies">
+                    <input type="hidden" id="user_cookies" value="cookies">
+                    <!--Since this input type is hiddens it does not have an id-->
                     <br>
                     <p>Leave a comment:</p>
                     <br>
+                    <label for="comment"></label>
                     <textarea id="comment" cols="20" rows="5" placeholder="Type your mind out. Anything is helpful!">.</textarea>
+                    <!--This one does not have a type attribute-->
                     <br><br>
                     <p>The website looks: </p>
-                    <input type="radio" name="how_cool" value="cool">Cool
-                    <input type="radio" name="how_cool" value="not_coll">Not cool
+                    <label for="how_cool1"></label>
+                    <input type="radio" id="how_cool1" name="how_cool" value="cool"><p>Cool</p>
+                    <label for="how_cool2"></label>
+                    <input type="radio" id="how_cool2" name="how_cool" value="not_coll"><p>Not cool</p>
                     <br><br>
                     <label for="c_back">Would you come back:</label>
                     <select id="c_back">
                         <option>Yeap</option>
                         <option>Nope</option>
-                </div>
                     </select>
+                </div>
             </fieldset>
         </form>
         
