@@ -1,8 +1,0 @@
-- Main page
-- Season releases
-- Create account or help the blog
-- Recommendations
-   - Site parceiro 1
-   - Site parceiro 2
-   - Site parceiro 3
--  Favorite songs
