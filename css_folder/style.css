@@ -54,7 +54,7 @@ nav > ul > li > ul > li{
     width: 12.5vw;
     margin: 0 auto 0 auto;
     background-color: #b8291c;
-    display: none;
+    Visibility: hidden;
 }
 nav a{
     color:whitesmoke;
@@ -75,7 +75,7 @@ nav > ul > #nav_right:hover{
     border-bottom-right-radius: 10px;
 }
 nav > ul > li:hover > ul > li{
-    display: block;
+    visibility: visible;
 }
 
 
